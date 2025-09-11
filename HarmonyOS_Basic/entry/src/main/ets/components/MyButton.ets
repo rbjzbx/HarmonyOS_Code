@@ -1,18 +1,27 @@
+/**
+ * ButtonPreview.ets
+ * 简要描述：可预览按钮组件
+ * 作者：moqi
+ * 日期：2025/9/9
+ */
+// 类似Vite的HMR热更新预览
+@Preview
 @Component
-  // @Preview
-export struct MyButton {
-  // 定义按钮文本属性，指定类型为string
-  @Prop buttonName: string
-
-  // 定义按钮背景色属性，指定类型为string
-  @Prop buttonBackColor: string
-
+struct ButtonPreview {
   build() {
-    Row({ space: 10 }) {
-      // 使用传递过来的属性值，而不是硬编码的值
-      Button(this.buttonName)
+    Column({ space: 10 }) {
+      Button('主要按钮')
         .type(ButtonType.Normal)
-        .backgroundColor(this.buttonBackColor)
+        .backgroundColor('#007AFF')
+
+      Button('次要按钮')
+        .type(ButtonType.Normal)
+        .backgroundColor('#34C759')
+
+      Button('危险按钮')
+        .type(ButtonType.Normal)
+        .backgroundColor('#FF3B30')
     }
+    .padding(20)
   }
 }

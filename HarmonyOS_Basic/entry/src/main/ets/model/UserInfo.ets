@@ -4,5 +4,6 @@ export interface UserInfo{
   age:number
   avatar:string
   email?:string
+  brief?: string;
   active:boolean
 }

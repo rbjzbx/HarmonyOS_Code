@@ -1,29 +1,41 @@
-import { MyButton } from '../components/MyButton'
+// import { MyButton } from '../components/MyButton'
 import { PersonalInfoCard } from '../components/PersonalInfoCard'
 import { UserProfile } from '../components/UserProfile'
+import { UserCard } from '../components/UserCard'
+import { StateExample } from '../components/StateExample'
+import { DataWatchExample } from '../components/DataWatchExample'
+import { UserList } from '../components/UserList'
 
 @Entry
 @Component
 struct Index {
   @Prop isOnline: boolean=true
   build() {
-    Column({space:20}){
-      Text(this.isOnline?"在线":"离线")
-      // 使用示例
-      MyButton({
-        buttonName: '主要按钮',
-        buttonBackColor: '#3698a0'
-      })
-
-      MyButton({
-        buttonName: '次要按钮',
-        buttonBackColor: '#82d4db'
-      })
-      PersonalInfoCard({
-        name:'张三',
-        avatar:'https://public-cdn-oss.mosoteach.cn/avatar/2023/43/05ced60b69da837686d71f6a365a35f0.jpg?v=1724931071&x-oss-process=style/s300x300'
-      })
-      UserProfile()
+    Column({space:20}) {
+      // Text(this.isOnline?"在线":"离线")
+      // // 使用示例
+      // MyButton({
+      //   buttonName: '主要按钮',
+      //   buttonBackColor: '#3698a0'
+      // })
+      //
+      // MyButton({
+      //   buttonName: '次要按钮',
+      //   buttonBackColor: '#82d4db'
+      // })
+      // PersonalInfoCard({
+      //   name:'张三',
+      //   avatar:'https://public-cdn-oss.mosoteach.cn/avatar/2023/43/05ced60b69da837686d71f6a365a35f0.jpg?v=1724931071&x-oss-process=style/s300x300'
+      // })
+      // UserProfile()
+      // UserCard({
+      //   username:'张三'
+      // })
+      //   StateExample()
+      // }.padding(20)
+      //
+      // DataWatchExample()
+      UserList()
     }
   }
 }
