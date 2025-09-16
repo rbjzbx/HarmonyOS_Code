@@ -1,6 +1,10 @@
 {
   "string": [
     {
+      "name": "network_reason",
+      "value": "需要网络权限加载头像"
+    },
+    {
       "name": "module_desc",
       "value": "module description"
     },
@@ -11,6 +15,74 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "avatar_size",
+      "value": "24"
+    },
+    {
+      "name": "button_small_width",
+      "value": "60"
+    },
+    {
+      "name": "button_small_height",
+      "value": "20"
+    },
+    {
+      "name": "padding_large_left_right",
+      "value": "20"
+    },
+    {
+      "name": "row_demo_width",
+      "value": "300"
+    },
+    {
+      "name": "row_demo_height",
+      "value": "60"
+    },
+    {
+      "name": "font_size_small",
+      "value": "12"
+    },
+    {
+      "name": "font_size_medium",
+      "value": "14"
+    },
+    {
+      "name": "font_size_large",
+      "value": "24"
+    },
+    {
+      "name": "spacing_small",
+      "value": "8"
+    },
+    {
+      "name": "spacing_medium",
+      "value": "12"
+    },
+    {
+      "name": "spacing_large",
+      "value": "16"
+    },
+    {
+      "name": "border_radius",
+      "value": "12"
+    },
+    {
+      "name": "shadow_radius",
+      "value": "8"
+    },
+    {
+      "name": "tag_padding_left_right",
+      "value": "12"
+    },
+    {
+      "name": "tag_padding_top_bottom",
+      "value": "4"
+    },
+    {
+      "name": "tag_margin_right_bottom",
+      "value": "8"
     }
   ]
 }
