@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ExplictAnimationPage",
+    "pages/CardAnimationPage",
+    "pages/KeyframeAnimationPage",
+    "pages/Page1",
+    "pages/ProductDetail",
+    "pages/ProductList"
+  ]
+}
